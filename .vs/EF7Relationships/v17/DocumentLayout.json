@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\controllers\\relationshipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\controllers\\relationshipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\dtos\\charactercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\dtos\\charactercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\dtos\\factioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\dtos\\factioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\models\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\models\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\dtos\\weaponcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\dtos\\weaponcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\dtos\\backpackcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\dtos\\backpackcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|c:\\users\\giolga\\desktop\\dotnet1\\ef7relationships\\ef7relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CEAD6D3-92B2-4351-847C-37D0A5CB5F9C}|EF7Relationships\\EF7Relationships.csproj|solutionrelative:ef7relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FactionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\FactionCreateDto.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\DTOs\\FactionCreateDto.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\FactionCreateDto.cs",
+              "RelativeToolTip": "EF7Relationships\\DTOs\\FactionCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:53:29.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Faction.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Faction.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\Models\\Faction.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Faction.cs",
+              "RelativeToolTip": "EF7Relationships\\Models\\Faction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:49:17.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Weapon.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\Models\\Weapon.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Weapon.cs",
+              "RelativeToolTip": "EF7Relationships\\Models\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:49:03.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeaponCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\WeaponCreateDto.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\DTOs\\WeaponCreateDto.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\WeaponCreateDto.cs",
+              "RelativeToolTip": "EF7Relationships\\DTOs\\WeaponCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:42:21.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RelationshipsController.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Controllers\\RelationshipsController.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\Controllers\\RelationshipsController.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Controllers\\RelationshipsController.cs",
+              "RelativeToolTip": "EF7Relationships\\Controllers\\RelationshipsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:33:15.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BackpackCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\BackpackCreateDto.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\DTOs\\BackpackCreateDto.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\BackpackCreateDto.cs",
+              "RelativeToolTip": "EF7Relationships\\DTOs\\BackpackCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:31:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\Models\\Character.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Models\\Character.cs",
+              "RelativeToolTip": "EF7Relationships\\Models\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:31:02.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\CharacterCreateDto.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\DTOs\\CharacterCreateDto.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\DTOs\\CharacterCreateDto.cs",
+              "RelativeToolTip": "EF7Relationships\\DTOs\\CharacterCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:30:56.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Program.cs",
+              "RelativeDocumentMoniker": "EF7Relationships\\Program.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DotNet1\\EF7Relationships\\EF7Relationships\\Program.cs",
+              "RelativeToolTip": "EF7Relationships\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T17:42:06.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
