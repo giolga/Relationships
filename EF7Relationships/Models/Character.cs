@@ -9,7 +9,7 @@ namespace EF7Relationships.Models
         public string Name { get; set; }
         //public int BackPackId { get; set; }
         public BackPack BackPack { get; set; }
-        public List<Weapon> Weapon { get; set; }
+        public List<Weapon> Weapons { get; set; }
         public IEnumerable<Faction> Factions { get; set; }
     }
 }

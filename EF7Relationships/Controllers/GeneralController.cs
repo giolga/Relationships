@@ -16,6 +16,23 @@ namespace EF7Relationships.Controllers
             this._context = context;
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Character>> GetCharacter(int id)
+        {
+            var character = await _context.Characters.
+                Include(c => c.BackPack).
+                Include(c => c.Weapons).
+                Include(c => c.Factions).
+                FirstOrDefaultAsync(c => c.Id == id);
+
+            if (character == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(character);
+        }
+
         [HttpPost]
         public async Task<ActionResult<IEnumerable<Character>>> CreateCharacter(CharacterDto request)
         {
@@ -26,16 +43,16 @@ namespace EF7Relationships.Controllers
 
             var backpack = new BackPack() { Description = request.Backpack.Description, Character = newCharacter };
             var weapons = request.Weapons.Select(w => new Weapon() { Name = w.Name, Character = newCharacter }).ToList();
-            var factions = request.Factions.Select(f => new Faction() { Name = f.Name}).ToList();
+            var factions = request.Factions.Select(f => new Faction() { Name = f.Name, Characters = new List<Character> { newCharacter } }).ToList();
 
             newCharacter.BackPack = backpack;
-            newCharacter.Weapon = weapons;
+            newCharacter.Weapons = weapons;
             newCharacter.Factions = factions;
 
             _context.Characters.Add(newCharacter);
             await _context.SaveChangesAsync();
 
-            return Ok(await _context.Characters.Include(c => c.BackPack).Include(c => c.Weapon).ToListAsync());
+            return Ok(await _context.Characters.Include(c => c.BackPack).Include(c => c.Weapons).ToListAsync());
 
         }
     }
