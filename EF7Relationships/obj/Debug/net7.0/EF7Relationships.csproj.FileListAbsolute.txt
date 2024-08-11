@@ -74,3 +74,4 @@ C:\Users\GioLGA\Desktop\DotNet1\EF7Relationships\EF7Relationships\obj\Debug\net7
 C:\Users\GioLGA\Desktop\DotNet1\EF7Relationships\EF7Relationships\obj\Debug\net7.0\EF7Relationships.pdb
 C:\Users\GioLGA\Desktop\DotNet1\EF7Relationships\EF7Relationships\obj\Debug\net7.0\EF7Relationships.genruntimeconfig.cache
 C:\Users\GioLGA\Desktop\DotNet1\EF7Relationships\EF7Relationships\obj\Debug\net7.0\ref\EF7Relationships.dll
+C:\Users\GioLGA\Desktop\DotNet1\EF7Relationships\EF7Relationships\obj\Debug\net7.0\EF7Relationships.sourcelink.json

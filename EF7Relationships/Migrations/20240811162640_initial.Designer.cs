@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF7Relationships.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240604180212_init1")]
-    partial class init1
+    [Migration("20240811162640_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace EF7Relationships.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("EF7Relationships.Models.Backpack", b =>
+            modelBuilder.Entity("EF7Relationships.Models.BackPack", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace EF7Relationships.Migrations
                     b.HasIndex("CharacterId")
                         .IsUnique();
 
-                    b.ToTable("Backpacks");
+                    b.ToTable("BackPacks");
                 });
 
             modelBuilder.Entity("EF7Relationships.Models.Character", b =>
@@ -64,11 +64,11 @@ namespace EF7Relationships.Migrations
                     b.ToTable("Characters");
                 });
 
-            modelBuilder.Entity("EF7Relationships.Models.Backpack", b =>
+            modelBuilder.Entity("EF7Relationships.Models.BackPack", b =>
                 {
                     b.HasOne("EF7Relationships.Models.Character", "Character")
-                        .WithOne("Backpack")
-                        .HasForeignKey("EF7Relationships.Models.Backpack", "CharacterId")
+                        .WithOne("BackPack")
+                        .HasForeignKey("EF7Relationships.Models.BackPack", "CharacterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -77,7 +77,7 @@ namespace EF7Relationships.Migrations
 
             modelBuilder.Entity("EF7Relationships.Models.Character", b =>
                 {
-                    b.Navigation("Backpack")
+                    b.Navigation("BackPack")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

@@ -1,12 +1,13 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace EF7Relationships.Models
 {
     public class Faction
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        [JsonIgnore]
-        public List<Character> Characters { get; set; }
+        public IEnumerable<Character> Characters{ get; set; }
+
     }
 }

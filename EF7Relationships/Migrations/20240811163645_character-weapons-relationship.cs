@@ -5,38 +5,25 @@
 namespace EF7Relationships.Migrations
 {
     /// <inheritdoc />
-    public partial class init1 : Migration
+    public partial class characterweaponsrelationship : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Characters",
+                name: "Weapons",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Characters", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Backpacks",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CharacterId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Backpacks", x => x.Id);
+                    table.PrimaryKey("PK_Weapons", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Backpacks_Characters_CharacterId",
+                        name: "FK_Weapons_Characters_CharacterId",
                         column: x => x.CharacterId,
                         principalTable: "Characters",
                         principalColumn: "Id",
@@ -44,20 +31,16 @@ namespace EF7Relationships.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Backpacks_CharacterId",
-                table: "Backpacks",
-                column: "CharacterId",
-                unique: true);
+                name: "IX_Weapons_CharacterId",
+                table: "Weapons",
+                column: "CharacterId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Backpacks");
-
-            migrationBuilder.DropTable(
-                name: "Characters");
+                name: "Weapons");
         }
     }
 }

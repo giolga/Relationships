@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF7Relationships.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240604181923_factions3")]
-    partial class factions3
+    [Migration("20240811163645_character-weapons-relationship")]
+    partial class characterweaponsrelationship
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,22 +24,7 @@ namespace EF7Relationships.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CharacterFaction", b =>
-                {
-                    b.Property<int>("CharactersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("FactionsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CharactersId", "FactionsId");
-
-                    b.HasIndex("FactionsId");
-
-                    b.ToTable("CharacterFaction");
-                });
-
-            modelBuilder.Entity("EF7Relationships.Models.Backpack", b =>
+            modelBuilder.Entity("EF7Relationships.Models.BackPack", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -59,7 +44,7 @@ namespace EF7Relationships.Migrations
                     b.HasIndex("CharacterId")
                         .IsUnique();
 
-                    b.ToTable("Backpacks");
+                    b.ToTable("BackPacks");
                 });
 
             modelBuilder.Entity("EF7Relationships.Models.Character", b =>
@@ -77,23 +62,6 @@ namespace EF7Relationships.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Characters");
-                });
-
-            modelBuilder.Entity("EF7Relationships.Models.Faction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Factions");
                 });
 
             modelBuilder.Entity("EF7Relationships.Models.Weapon", b =>
@@ -118,26 +86,11 @@ namespace EF7Relationships.Migrations
                     b.ToTable("Weapons");
                 });
 
-            modelBuilder.Entity("CharacterFaction", b =>
-                {
-                    b.HasOne("EF7Relationships.Models.Character", null)
-                        .WithMany()
-                        .HasForeignKey("CharactersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EF7Relationships.Models.Faction", null)
-                        .WithMany()
-                        .HasForeignKey("FactionsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("EF7Relationships.Models.Backpack", b =>
+            modelBuilder.Entity("EF7Relationships.Models.BackPack", b =>
                 {
                     b.HasOne("EF7Relationships.Models.Character", "Character")
-                        .WithOne("Backpack")
-                        .HasForeignKey("EF7Relationships.Models.Backpack", "CharacterId")
+                        .WithOne("BackPack")
+                        .HasForeignKey("EF7Relationships.Models.BackPack", "CharacterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -147,7 +100,7 @@ namespace EF7Relationships.Migrations
             modelBuilder.Entity("EF7Relationships.Models.Weapon", b =>
                 {
                     b.HasOne("EF7Relationships.Models.Character", "Character")
-                        .WithMany("Weapons")
+                        .WithMany("Weapon")
                         .HasForeignKey("CharacterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -157,10 +110,10 @@ namespace EF7Relationships.Migrations
 
             modelBuilder.Entity("EF7Relationships.Models.Character", b =>
                 {
-                    b.Navigation("Backpack")
+                    b.Navigation("BackPack")
                         .IsRequired();
 
-                    b.Navigation("Weapons");
+                    b.Navigation("Weapon");
                 });
 #pragma warning restore 612, 618
         }

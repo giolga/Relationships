@@ -5,7 +5,7 @@
 namespace EF7Relationships.Migrations
 {
     /// <inheritdoc />
-    public partial class factions3 : Migration
+    public partial class CharacterFactionRelationShip : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
